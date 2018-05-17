@@ -4,16 +4,21 @@
   "description": "angular",
   "main": "index.js",
   "scripts": {
+    "start":"npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/papajim1990/angular.git"
+    "url": "git+https://github.com/papajim1990/angular.git",
+    "lite":"lite-server"
   },
   "author": "dimitris papageorgiou",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/papajim1990/angular/issues"
   },
-  "homepage": "https://github.com/papajim1990/angular#readme"
+  "homepage": "https://github.com/papajim1990/angular#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
 }
